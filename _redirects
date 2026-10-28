@@ -1,0 +1,3 @@
+# Once theinstantleader.com and www.theinstantleader.com are both
+# attached in Cloudflare Pages, send www visitors to the apex:
+https://www.theinstantleader.com/* https://theinstantleader.com/:splat 301
