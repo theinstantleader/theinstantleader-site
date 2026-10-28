@@ -46,8 +46,10 @@
   h1 { font-size:58px; line-height:1.06; letter-spacing:-0.025em; font-weight:800; margin-bottom:26px; }
   h1 em { font-style:normal; color:var(--gold); }
   .sub { font-size:20px; color:#D9D9D9; max-width:600px; margin-bottom:36px; }
-  .photo { aspect-ratio:4/5; width:100%; border:2px dashed #5A5A5A; border-radius:16px; display:flex; flex-direction:column; gap:6px; align-items:center; justify-content:center; text-align:center; color:#9A9A9A; font-size:15px; padding:20px; background:#1C1C1C; }
-  .photo strong { color:var(--gold); font-size:13px; letter-spacing:.08em; text-transform:uppercase; }
+  .photo { aspect-ratio:4/5; width:100%; border-radius:16px; overflow:hidden; background:#1C1C1C; }
+  .photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center top; }
+  .photo.placeholder { border:2px dashed #5A5A5A; display:flex; flex-direction:column; gap:6px; align-items:center; justify-content:center; text-align:center; color:#9A9A9A; font-size:15px; padding:20px; }
+  .photo.placeholder strong { color:var(--gold); font-size:13px; letter-spacing:.08em; text-transform:uppercase; }
 
   section { padding:96px 0; }
   h2 { font-size:40px; letter-spacing:-0.02em; line-height:1.15; font-weight:800; margin-bottom:18px; }
@@ -68,8 +70,9 @@
 
   .about { background:#F6F6F4; }
   .about .wrap { display:grid; grid-template-columns:0.6fr 1.4fr; gap:64px; align-items:center; }
-  .about .photo { background:#fff; border-color:#C8C8C8; color:#888; }
-  .about .photo strong { color:#8A6200; }
+  .about .photo { background:#fff; }
+  .about .photo.placeholder { border-color:#C8C8C8; color:#888; }
+  .about .photo.placeholder strong { color:#8A6200; }
   .about p { font-size:19px; color:#333; max-width:640px; }
 
   .quotes { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:44px; }
@@ -165,7 +168,7 @@
       <p class="sub">Whether you're leading at work or anywhere else life needs you, you get practical tools to lead well right where you are.</p>
       <a class="btn" href="https://book.andylee.me/lite/free-20-minute-call">Book a free 20-minute call</a>
     </div>
-    <div class="photo" role="img" aria-label="Photo of Andy Lee coming soon"><strong>Photo coming soon</strong>Portrait of Andy<br>(4:5)</div>
+    <div class="photo"><img src="assets/portraits/andy-beige-blazer.jpg" width="900" height="1124" alt="Andy Lee, founder of The Instant Leader" loading="eager" decoding="async"></div>
   </div>
 </section>
 
@@ -194,7 +197,7 @@
 
 <section class="about" id="about">
   <div class="wrap">
-    <div class="photo" role="img" aria-label="Photo of Andy Lee coming soon"><strong>Photo coming soon</strong>Portrait of Andy<br>(4:5)</div>
+    <div class="photo"><img src="assets/portraits/andy-beige-blazer.jpg" width="900" height="1124" alt="Andy Lee" loading="lazy" decoding="async"></div>
     <div>
       <h2>About Andy</h2>
       <p>Andy Lee is a business and leadership coach and the founder of The Instant Leader. He has 20+ years of experience and has spent most of his career working with people at every level of a company, including founders. He's had thousands of conversations with leaders across different industries and has spoken at numerous events.</p>
