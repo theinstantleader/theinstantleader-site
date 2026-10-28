@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>You’ve Just Become a Manager | The Instant Leader</title>
+<meta name="description" content="You’ve Just Become a Manager — The 5 Frameworks for First-Time Managers by Andy Lee. Flip through the book online.">
+<meta name="theme-color" content="#111111">
+<link rel="canonical" href="https://theinstantleader.com/book/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://theinstantleader.com/book/">
+<meta property="og:title" content="You’ve Just Become a Manager | The Instant Leader">
+<meta property="og:description" content="The 5 Frameworks for First-Time Managers by Andy Lee. Flip through the book online.">
+<meta property="og:image" content="https://theinstantleader.com/book/pages/page-01.jpg">
+<meta property="og:locale" content="en_GB">
+<link rel="icon" href="/assets/favicon.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/favicons/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./vendor/page-flip.css">
+<style>
+  :root { --gold:#FBB016; --black:#111111; --ink:#1A1A1A; --grey:#595959; --line:#EAEAEA; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html, body { height:100%; }
+  body {
+    font-family:'Inter', Arial, system-ui, sans-serif;
+    color:#fff;
+    background:var(--black);
+    -webkit-font-smoothing:antialiased;
+    display:flex;
+    flex-direction:column;
+    min-height:100%;
+  }
+  a { color:inherit; }
+
+  header {
+    flex:none;
+    border-bottom:1px solid rgba(255,255,255,.08);
+    background:#0A0A0A;
+  }
+  header .bar {
+    max-width:1200px;
+    margin:0 auto;
+    padding:14px 20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+  }
+  .logo { display:flex; align-items:center; text-decoration:none; flex:none; }
+  .logo img { height:26px; width:auto; }
+  .title-block { flex:1; min-width:0; text-align:center; }
+  .title-block h1 {
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:-0.01em;
+    line-height:1.25;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .title-block .sub {
+    font-size:12px;
+    color:#A0A0A0;
+    margin-top:2px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .home {
+    flex:none;
+    font-size:13px;
+    font-weight:600;
+    text-decoration:none;
+    color:#fff;
+    opacity:.85;
+    padding:8px 12px;
+    border:1px solid rgba(255,255,255,.18);
+    border-radius:8px;
+  }
+  .home:hover { color:var(--gold); border-color:var(--gold); opacity:1; }
+
+  main {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:20px 16px 12px;
+    gap:16px;
+    min-height:0;
+  }
+
+  #book-wrap {
+    width:100%;
+    max-width:980px;
+    display:flex;
+    justify-content:center;
+  }
+  #book {
+    width:100%;
+    margin:0 auto;
+    box-shadow:0 18px 48px rgba(0,0,0,.55);
+  }
+  #book canvas { border-radius:2px; }
+
+  .controls {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:14px;
+    flex-wrap:wrap;
+    user-select:none;
+  }
+  .controls button {
+    appearance:none;
+    border:1px solid rgba(255,255,255,.2);
+    background:#1A1A1A;
+    color:#fff;
+    font:inherit;
+    font-size:14px;
+    font-weight:600;
+    padding:10px 16px;
+    border-radius:8px;
+    cursor:pointer;
+    min-width:96px;
+  }
+  .controls button:hover:not(:disabled) {
+    border-color:var(--gold);
+    color:var(--gold);
+  }
+  .controls button:disabled {
+    opacity:.35;
+    cursor:default;
+  }
+  .page-num {
+    font-size:14px;
+    font-weight:500;
+    color:#C8C8C8;
+    min-width:110px;
+    text-align:center;
+  }
+  .hint {
+    font-size:12px;
+    color:#777;
+    text-align:center;
+  }
+
+  footer {
+    flex:none;
+    padding:12px 20px 18px;
+    text-align:center;
+    font-size:12px;
+    color:#777;
+  }
+  footer a { color:#A0A0A0; text-decoration:none; }
+  footer a:hover { color:var(--gold); }
+
+  @media (max-width:720px) {
+    .title-block .sub { display:none; }
+    .title-block h1 { font-size:13px; }
+    .home { padding:8px 10px; font-size:12px; }
+    main { padding:12px 8px 8px; }
+    .controls button { min-width:72px; padding:10px 12px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="logo" href="/" aria-label="The Instant Leader home">
+      <img src="/assets/til-logo.png" alt="The Instant Leader" width="140" height="28">
+    </a>
+    <div class="title-block">
+      <h1>You’ve Just Become a Manager</h1>
+      <div class="sub">The 5 Frameworks for First-Time Managers · Andy Lee</div>
+    </div>
+    <a class="home" href="/">Home</a>
+  </div>
+</header>
+
+<main>
+  <div id="book-wrap">
+    <div id="book" aria-label="Book flip viewer"></div>
+  </div>
+  <div class="controls">
+    <button type="button" id="prev" aria-label="Previous page">← Prev</button>
+    <div class="page-num" id="page-num" aria-live="polite">Page 1 of 58</div>
+    <button type="button" id="next" aria-label="Next page">Next →</button>
+  </div>
+  <p class="hint">Drag a corner, swipe, or use the arrows / keyboard ← →</p>
+</main>
+
+<footer>
+  © The Instant Leader · <a href="/">theinstantleader.com</a>
+</footer>
+
+<script src="./vendor/page-flip.browser.js"></script>
+<script>
+(function () {
+  var TOTAL = 58;
+  var pages = [];
+  for (var i = 1; i <= TOTAL; i++) {
+    var n = (i < 10 ? '0' : '') + i;
+    pages.push('./pages/page-' + n + '.jpg');
+  }
+
+  var el = document.getElementById('book');
+  var pageNum = document.getElementById('page-num');
+  var prevBtn = document.getElementById('prev');
+  var nextBtn = document.getElementById('next');
+
+  // Single-page width/height for StPageFlip (cover + spreads).
+  // Source JPEGs are 1323×1871 (~160 DPI from A4 PDF).
+  var pageFlip = new St.PageFlip(el, {
+    width: 520,
+    height: 735,
+    size: 'stretch',
+    minWidth: 280,
+    maxWidth: 560,
+    minHeight: 400,
+    maxHeight: 820,
+    drawShadow: true,
+    flippingTime: 900,
+    usePortrait: true,
+    autoSize: true,
+    maxShadowOpacity: 0.5,
+    showCover: true,
+    mobileScrollSupport: true,
+    swipeDistance: 30,
+    useMouseEvents: true,
+    showPageCorners: true,
+    startPage: 0
+  });
+
+  function updateChrome(pageIndex) {
+    var display = pageIndex + 1;
+    pageNum.textContent = 'Page ' + display + ' of ' + TOTAL;
+    prevBtn.disabled = pageIndex <= 0;
+    nextBtn.disabled = pageIndex >= TOTAL - 1;
+  }
+
+  pageFlip.loadFromImages(pages);
+
+  pageFlip.on('flip', function (e) {
+    updateChrome(e.data);
+  });
+  pageFlip.on('init', function (e) {
+    updateChrome(e.data.page);
+  });
+
+  prevBtn.addEventListener('click', function () {
+    pageFlip.flipPrev();
+  });
+  nextBtn.addEventListener('click', function () {
+    pageFlip.flipNext();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown') {
+      e.preventDefault();
+      pageFlip.flipNext();
+    } else if (e.key === 'ArrowLeft' || e.key === 'PageUp') {
+      e.preventDefault();
+      pageFlip.flipPrev();
+    } else if (e.key === 'Home') {
+      e.preventDefault();
+      pageFlip.turnToPage(0);
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      pageFlip.turnToPage(TOTAL - 1);
+    }
+  });
+})();
+</script>
+</body>
+</html>
