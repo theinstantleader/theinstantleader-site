@@ -1,3 +1,7 @@
 # Once theinstantleader.com and www.theinstantleader.com are both
 # attached in Cloudflare Pages, send www visitors to the apex:
 https://www.theinstantleader.com/* https://theinstantleader.com/:splat 301
+
+# Former Framer path for Coach in Your Pocket
+/cfc-managers /coach-in-your-pocket 301
+/cfc-managers/ /coach-in-your-pocket 301
