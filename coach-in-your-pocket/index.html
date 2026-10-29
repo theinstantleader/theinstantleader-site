@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coach in Your Pocket | The Instant Leader</title>
+<meta name="description" content="Private, message-based 1:1 coaching for new and recently promoted managers. Message me what's going on and get a clear reply within a day. £99 a month. Book a free 20-minute call.">
+<meta name="theme-color" content="#111111">
+<link rel="canonical" href="https://theinstantleader.com/coach-in-your-pocket">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://theinstantleader.com/coach-in-your-pocket">
+<meta property="og:title" content="Coach in Your Pocket | The Instant Leader">
+<meta property="og:description" content="Stuck on a management conversation? Message me. Get a clear reply within a day. Private 1:1 coaching for new managers. £99 a month.">
+<meta property="og:image" content="https://theinstantleader.com/assets/coach/og-image.png">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Coach in Your Pocket | The Instant Leader">
+<meta name="twitter:description" content="Stuck on a management conversation? Message me. Get a clear reply within a day. £99 a month.">
+<link rel="icon" href="/assets/favicon.png" type="image/png" sizes="32x32">
+<link rel="icon" href="/assets/favicons/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --gold:#FBB016; --black:#111111; --ink:#1A1A1A; --grey:#595959; --line:#EAEAEA; --soft:#FDF6E8; --tick:#00FA08; --cross:#FF2137; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html { scroll-behavior:smooth; }
+  body { font-family:'Inter', Arial, system-ui, sans-serif; color:var(--ink); background:#fff; line-height:1.6; font-size:17px; -webkit-font-smoothing:antialiased; }
+  img { max-width:100%; display:block; }
+  .wrap { max-width:1120px; margin:0 auto; padding:0 40px; }
+  a { color:inherit; }
+  .gold { color:var(--gold); }
+
+  .btn { display:inline-block; font-weight:700; font-size:16px; line-height:1.2; text-decoration:none; padding:16px 28px; border-radius:8px; border:2px solid var(--gold); background:var(--gold); color:var(--black); text-align:center; transition:transform .15s ease, box-shadow .15s ease; }
+  .btn:hover { transform:translateY(-1px); box-shadow:0 6px 18px rgba(251,176,22,.35); }
+  .btn-sm { padding:10px 18px; font-size:14px; }
+  .btn-dark { background:var(--black); color:#fff; border-color:var(--black); }
+  .btn-dark:hover { box-shadow:0 6px 18px rgba(0,0,0,.25); }
+  .btn-ghost { background:transparent; color:#fff; border-color:rgba(255,255,255,.35); }
+  .btn-ghost:hover { border-color:var(--gold); color:var(--gold); box-shadow:none; }
+
+  header { background:var(--black); color:#fff; }
+  header .wrap { display:flex; align-items:center; justify-content:space-between; gap:24px; min-height:76px; }
+  .logo { display:flex; align-items:center; text-decoration:none; flex:none; }
+  .logo img { height:28px; width:auto; }
+  nav { display:flex; gap:28px; align-items:center; font-size:15px; font-weight:500; }
+  nav a.navlink { color:#fff; text-decoration:none; opacity:.9; }
+  nav a.navlink:hover { color:var(--gold); }
+
+  .hero { background:var(--black); color:#fff; padding:88px 0 100px; }
+  .hero .wrap { display:grid; grid-template-columns:1.25fr 0.75fr; gap:64px; align-items:center; }
+  .eyebrow { font-size:13px; font-weight:800; letter-spacing:0.1em; text-transform:uppercase; color:var(--gold); margin-bottom:18px; }
+  h1 { font-size:46px; line-height:1.1; letter-spacing:-0.025em; font-weight:800; margin-bottom:22px; }
+  .sub { font-size:20px; color:#D9D9D9; max-width:600px; margin-bottom:18px; }
+  .cap { font-size:15px; color:#B0B0B0; margin-bottom:32px; max-width:520px; }
+  .hero-actions { display:flex; flex-wrap:wrap; gap:14px; align-items:center; }
+  .photo { aspect-ratio:4/5; width:100%; border-radius:16px; overflow:hidden; background:#1C1C1C; box-shadow:0 24px 60px rgba(0,0,0,.45); }
+  .photo img { display:block; width:100%; height:100%; object-fit:cover; object-position:center top; }
+
+  section { padding:96px 0; }
+  h2 { font-size:40px; letter-spacing:-0.02em; line-height:1.15; font-weight:800; margin-bottom:18px; }
+  h3 { font-size:20px; font-weight:800; line-height:1.3; margin-bottom:10px; }
+  .lead { font-size:19px; color:var(--grey); max-width:720px; }
+  .body-copy { font-size:18px; color:#333; max-width:720px; }
+  .body-copy p { margin-bottom:16px; }
+  .body-copy p:last-child { margin-bottom:0; }
+  .soft-band { background:var(--soft); }
+  .grey-band { background:#F6F6F4; }
+  .center { text-align:center; }
+  .center .lead { margin-left:auto; margin-right:auto; }
+
+  .pain-list { list-style:none; margin:36px 0 28px; max-width:760px; }
+  .pain-list li { position:relative; padding:14px 0 14px 28px; border-bottom:1px solid var(--line); font-size:18px; color:#333; }
+  .pain-list li:last-child { border-bottom:none; }
+  .pain-list li::before { content:""; position:absolute; left:0; top:22px; width:10px; height:10px; border-radius:50%; background:var(--gold); }
+
+  .intro-grid { display:grid; grid-template-columns:1.05fr 0.95fr; gap:56px; align-items:center; margin-top:12px; }
+  .mock { border-radius:16px; overflow:hidden; background:#111; box-shadow:0 18px 50px rgba(0,0,0,.18); }
+  .mock img { width:100%; height:auto; }
+
+  .steps { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:40px; }
+  .step { background:#fff; border:1px solid var(--line); border-top:5px solid var(--gold); border-radius:14px; padding:28px 24px; }
+  .step .num { display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:50%; background:var(--gold); color:var(--black); font-weight:800; font-size:15px; margin-bottom:16px; }
+  .step p { font-size:15.5px; color:#333; margin:0; }
+  .step .example { margin-top:14px; padding:14px 16px; background:var(--soft); border-radius:10px; font-size:14.5px; color:#444; font-style:italic; }
+  .optional { margin-top:28px; max-width:820px; background:#fff; border:1px solid var(--line); border-left:5px solid var(--gold); border-radius:12px; padding:22px 26px; font-size:17px; color:#333; }
+
+  .vs-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; margin-top:40px; }
+  .vs { background:#fff; border:1px solid var(--line); border-radius:14px; padding:26px 24px; }
+  .vs h3 { font-size:18px; margin-bottom:10px; }
+  .vs p { font-size:15.5px; color:#333; margin:0; }
+  .vs.winner { border:2px solid var(--gold); background:linear-gradient(180deg,#FFF8E8 0%,#fff 55%); box-shadow:0 10px 30px rgba(251,176,22,.18); }
+  .vs.winner .tag { display:inline-block; font-size:12px; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--black); background:var(--gold); border-radius:999px; padding:5px 10px; margin-bottom:12px; }
+
+  .about .wrap { display:grid; grid-template-columns:0.65fr 1.35fr; gap:64px; align-items:center; }
+  .about .photo { background:#fff; box-shadow:0 18px 40px rgba(0,0,0,.08); }
+  .about p { font-size:19px; color:#333; max-width:640px; margin-bottom:16px; }
+  .about p:last-child { margin-bottom:0; }
+
+  .price-block { display:grid; grid-template-columns:1.1fr 0.9fr; gap:36px; align-items:stretch; margin-top:36px; }
+  .price-card { background:#fff; border:1px solid var(--line); border-radius:16px; padding:36px 32px; box-shadow:0 12px 36px rgba(0,0,0,.05); }
+  .price-card .amount { font-size:52px; font-weight:800; letter-spacing:-0.03em; line-height:1; color:var(--black); margin:8px 0 6px; }
+  .price-card .amount span { font-size:20px; font-weight:700; color:var(--grey); }
+  .price-card .note { font-size:15px; color:var(--grey); margin-bottom:24px; }
+  .include-list { list-style:none; margin:0 0 28px; }
+  .include-list li { display:flex; gap:14px; align-items:flex-start; padding:12px 0; border-bottom:1px solid var(--line); font-size:16.5px; color:#333; }
+  .include-list li:last-child { border-bottom:none; }
+  .include-list .tick { flex:none; width:28px; height:28px; border-radius:50%; background:var(--gold); color:var(--black); font-weight:800; font-size:16px; line-height:28px; text-align:center; }
+  .price-aside { background:var(--black); color:#fff; border-radius:16px; padding:36px 32px; display:flex; flex-direction:column; justify-content:center; }
+  .price-aside h3 { color:#fff; font-size:24px; margin-bottom:14px; }
+  .price-aside p { color:#D0D0D0; font-size:17px; margin-bottom:16px; }
+  .price-aside p:last-of-type { margin-bottom:28px; }
+
+  .guarantee-grid { display:grid; grid-template-columns:1.2fr 0.8fr; gap:48px; align-items:center; margin-top:28px; }
+  .guarantee { background:#fff; border:1px solid var(--line); border-radius:16px; padding:36px 32px; }
+  .guarantee p { font-size:18px; color:#333; margin-bottom:14px; }
+  .guarantee p:last-child { margin-bottom:0; }
+  .badge-wrap { display:flex; justify-content:center; align-items:center; }
+  .badge-wrap img { width:min(280px,100%); height:auto; filter:drop-shadow(0 16px 30px rgba(0,0,0,.12)); }
+
+  .split { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:36px; }
+  .fit-card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:28px 26px; }
+  .fit-card h3 { font-size:20px; font-weight:800; margin-bottom:18px; display:flex; align-items:center; gap:10px; }
+  .fit-card.yes { border-top:5px solid var(--tick); background:linear-gradient(180deg,#F3FFF3 0%,#fff 40%); }
+  .fit-card.no { border-top:5px solid var(--cross); background:linear-gradient(180deg,#FFF5F6 0%,#fff 40%); }
+  .fit-card ul { list-style:none; }
+  .fit-card li { display:flex; gap:12px; align-items:flex-start; padding:10px 0; font-size:16.5px; color:#333; }
+  .fit-card li img { flex:none; width:22px; height:22px; margin-top:2px; }
+
+  .quotes { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:44px; }
+  .quote { background:#fff; border:1px solid var(--line); border-radius:14px; padding:28px 26px; display:flex; flex-direction:column; }
+  .quote .top { display:flex; gap:14px; align-items:center; margin-bottom:18px; }
+  .quote .avatar { width:48px; height:48px; border-radius:50%; overflow:hidden; background:#eee; flex:none; }
+  .quote .avatar img { width:100%; height:100%; object-fit:cover; }
+  .quote .mark { font-family:Georgia, serif; font-size:56px; line-height:.6; color:var(--gold); font-weight:800; height:24px; margin-bottom:8px; }
+  .quote blockquote { font-size:16.5px; color:var(--ink); flex:1; margin-bottom:18px; }
+  .quote .who { font-weight:800; font-size:15px; }
+  .quote .role { font-size:14px; color:var(--grey); }
+  .proof-note { font-size:15px; color:var(--grey); margin-top:8px; }
+
+  .questions h2 { text-align:center; }
+  .faq { max-width:860px; margin:36px auto 0; }
+  .faq details { border-bottom:1px solid var(--line); }
+  .faq summary { list-style:none; cursor:pointer; display:flex; justify-content:space-between; align-items:center; gap:20px; padding:18px 2px; font-size:18px; font-weight:700; line-height:1.4; }
+  .faq summary::-webkit-details-marker { display:none; }
+  .faq summary::after { content:"+"; flex:none; width:30px; height:30px; border-radius:50%; background:var(--soft); color:#8A6200; font-size:22px; font-weight:600; line-height:30px; text-align:center; }
+  .faq details[open] summary::after { content:"\2212"; background:var(--gold); color:var(--black); }
+  .faq summary:hover { color:#8A6200; }
+  .faq details p { font-size:16.5px; color:var(--grey); padding:0 50px 22px 2px; max-width:760px; }
+
+  .close { background:var(--gold); text-align:center; padding:96px 0; }
+  .close p.lead-close { font-size:26px; font-weight:700; line-height:1.35; letter-spacing:-0.01em; color:var(--black); max-width:700px; margin:0 auto 18px; }
+  .close p.note { font-size:17px; color:#3A3A3A; max-width:640px; margin:0 auto 34px; }
+
+  footer { background:var(--black); color:#A0A0A0; padding:48px 0; font-size:14px; }
+  footer .wrap { display:flex; justify-content:space-between; align-items:center; gap:24px; flex-wrap:wrap; }
+  footer .links { display:flex; flex-wrap:wrap; gap:22px; }
+  footer .links a { color:#fff; text-decoration:none; }
+  footer .links a:hover { color:var(--gold); }
+
+  @media (max-width:1000px) {
+    .quotes, .split, .vs-grid, .price-block, .guarantee-grid, .intro-grid { grid-template-columns:1fr; }
+    .steps { grid-template-columns:1fr; }
+    h1 { font-size:38px; }
+  }
+  @media (max-width:760px) {
+    body { font-size:16px; }
+    .wrap { padding:0 22px; }
+    header .wrap { min-height:64px; gap:10px; }
+    nav a.navlink { display:none; }
+    .logo img { height:22px; }
+    header .btn-sm { padding:9px 11px; font-size:12.5px; white-space:nowrap; }
+    .hero { padding:56px 0 64px; }
+    .hero .wrap, .about .wrap { grid-template-columns:1fr; gap:36px; }
+    .hero .photo, .about .photo { max-width:280px; margin:0 auto; }
+    h1 { font-size:30px; line-height:1.12; margin-bottom:18px; }
+    .sub { font-size:18px; }
+    .hero .btn, .close .btn, .price-card .btn, .price-aside .btn { display:block; width:100%; }
+    .hero-actions { flex-direction:column; align-items:stretch; }
+    section { padding:64px 0; }
+    h2 { font-size:30px; }
+    .body-copy, .pain-list li, .about p { font-size:17px; }
+    .lead { font-size:17px; }
+    .quotes { gap:16px; margin-top:32px; }
+    .faq { margin-top:28px; }
+    .faq summary { font-size:17px; padding:16px 0; }
+    .faq details p { padding:0 0 20px 0; font-size:16px; }
+    .close { padding:64px 0; }
+    .close p.lead-close { font-size:22px; }
+    .price-card .amount { font-size:44px; }
+    footer .wrap { flex-direction:column; align-items:flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Primary CTA: Book a free 20-minute call until Kajabi checkout is ready. -->
+<!-- TO CONFIRM: Kajabi checkout URL, messaging channel after join, VAT display if required. -->
+
+<header id="top">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="The Instant Leader home">
+      <img src="/assets/til-logo.png" alt="The Instant Leader" width="230" height="29">
+    </a>
+    <nav>
+      <a class="navlink" href="#about">About Andy</a>
+      <a class="navlink" href="/operator">Working with founders</a>
+      <a class="navlink" href="https://podcasts.apple.com/us/podcast/the-instant-leader/id1854213247" target="_blank" rel="noopener noreferrer">Podcast</a>
+      <a class="btn btn-sm" href="https://book.andylee.me/lite/free-20-minute-call">Book a free 20-minute call</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Coach in Your Pocket · £99 a month</p>
+      <h1>Stuck on a management conversation? <span class="gold">Message me.</span> Get a clear reply within a day.</h1>
+      <p class="sub">Private, message-based 1:1 coaching for new and recently promoted managers. Text, voice note or a short video. I reply within 24 hours, Monday to Thursday, with practical guidance you can use.</p>
+      <p class="cap">£99 a month. Cancel anytime. No minimum contract.</p>
+      <div class="hero-actions">
+        <a class="btn" href="https://book.andylee.me/lite/free-20-minute-call">Book a free 20-minute call</a>
+        <a class="btn btn-ghost" href="#how-it-works">See how it works</a>
+      </div>
+    </div>
+    <div class="photo"><img src="/assets/coach/andy-profile.jpg" width="770" height="1023" alt="Andy Lee" loading="eager" decoding="async"></div>
+  </div>
+</section>
+
+<section id="familiar">
+  <div class="wrap">
+    <h2>Sound <span class="gold">familiar?</span></h2>
+    <div class="body-copy">
+      <p>You've stepped into management and suddenly feel overwhelmed. You're expected to lead, support your team and make decisions, but no one has really shown you how.</p>
+    </div>
+    <ul class="pain-list">
+      <li>Your team member isn't meeting deadlines, and you don't know how to bring it up without making things weird.</li>
+      <li>You worry about being liked and being respected, and you're not sure how to balance the two.</li>
+      <li>Your boss wants an update on a project that's behind, and you're not sure how to explain it.</li>
+      <li>Someone on your team seems frustrated. When you ask if everything's okay, they just say "fine."</li>
+      <li>You've just come out of a meeting replaying what you should have said.</li>
+      <li>You need to delegate something, but part of you thinks it'll be quicker if you just do it yourself.</li>
+      <li>You're managing people who were your peers, and it still feels awkward.</li>
+    </ul>
+    <div class="body-copy">
+      <p>If any of this feels familiar, you're not failing. Most people become managers because they were good at the job, not because anyone taught them how to lead people.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft-band" id="how-it-works">
+  <div class="wrap">
+    <div class="intro-grid">
+      <div>
+        <h2>Here's how <span class="gold">it works</span></h2>
+        <div class="body-copy">
+          <p>This is fully one-to-one support. You're not joining a group, a course or a community. There's nothing to keep up with.</p>
+          <p>We work on real situations as they happen.</p>
+        </div>
+      </div>
+      <div class="mock">
+        <img src="/assets/coach/hero-product-mockup.png" width="1248" height="832" alt="Message-based coaching on your phone" loading="lazy" decoding="async">
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="num">1</div>
+        <h3>You message me what's going on</h3>
+        <p>Something happens at work and you're not sure how to handle it. You send me a private message in your own words. That might be text, a voice note or a short video. Whatever feels easiest in the moment.</p>
+        <p class="example">"My team member keeps missing deadlines. I don't want to be too harsh, but it can't carry on like this."</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3>I reply with clear, practical guidance</h3>
+        <p>I reply within 24 hours, Monday to Thursday. Guidance tailored to you and your situation. That usually includes how to think about what's going on, what to focus on, and often suggested wording or questions you can use.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3>You handle it with more confidence</h3>
+        <p>Instead of guessing or replaying the conversation afterwards, you go in feeling clearer and more grounded.</p>
+      </div>
+    </div>
+
+    <div class="optional">
+      <strong>Optional deeper support.</strong> You also have access to a 20-minute call each month if you want to talk something through live, or go deeper on something more complex. There's no obligation to use it, and it doesn't replace the day-to-day message support.
+    </div>
+
+    <div style="margin-top:36px;">
+      <a class="btn" href="https://book.andylee.me/lite/free-20-minute-call">Book a free 20-minute call</a>
+    </div>
+  </div>
+</section>
+
+<section class="grey-band" id="why-message">
+  <div class="wrap">
+    <h2>Why <span class="gold">message-based</span></h2>
+    <p class="lead">Most support for new managers comes as training sessions or scheduled calls. Both can help. Neither is there when something is actually happening at work.</p>
+    <div class="vs-grid">
+      <div class="vs">
+        <h3>Traditional training</h3>
+        <p>Training usually arrives in bulk. Hours of content and examples that make sense at the time. Weeks later, when a conversation goes badly or something unexpected lands in your inbox, you're left trying to remember what you were meant to do.</p>
+      </div>
+      <div class="vs">
+        <h3>Scheduled calls</h3>
+        <p>Calls can be useful, but they come with friction. You wait for availability, carve out time and explain everything from scratch. By the time the call happens, the moment may have passed, or the issue has already grown. They're good for deeper reflection. Less helpful for day-to-day management moments.</p>
+      </div>
+      <div class="vs">
+        <h3>AI tools on their own</h3>
+        <p>AI can help with drafting a message or thinking through ideas. It doesn't know your context, your role or the people you're dealing with. On its own, it often gives advice that sounds reasonable but misses what matters.</p>
+      </div>
+      <div class="vs winner">
+        <div class="tag">Built for the moment</div>
+        <h3>Message-based coaching</h3>
+        <p>You get support in the moment. Advice that fits your exact situation. Guidance you can use straight away. Think of it like having an experienced manager you trust. Someone you can message when you're unsure how to handle something, rather than working it out alone.</p>
+      </div>
+    </div>
+    <div class="body-copy" style="margin-top:28px;">
+      <p>If you want calm, practical support without rearranging your day, this is built for that.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="photo"><img src="/assets/coach/andy-profile.jpg" width="770" height="1023" alt="Andy Lee" loading="lazy" decoding="async"></div>
+    <div>
+      <h2>Hey, I'm <span class="gold">Andy Lee</span></h2>
+      <p>I created Coach in Your Pocket for people who suddenly find themselves responsible for others, without having been properly shown how to manage.</p>
+      <p>Most managers don't struggle because they lack motivation or intelligence. They struggle because they were promoted for being good at the job, then left to figure out leadership by trial and error. That usually leads to avoided conversations, second-guessing decisions and a constant feeling of being behind.</p>
+      <p>I've spent 20+ years in the corporate world across a range of industries, and I've had thousands of conversations with leaders across different industries. I've also been a first-time manager myself. I remember stepping into the role with good intentions, high standards and very little guidance on how to actually lead people.</p>
+      <p>What people usually want is simple: "I just want to know what to say, what to do, and how to handle this properly."</p>
+      <p>That's what this is for. Practical support for the conversations, situations and pressures that show up every week when you're managing people, especially when you're still finding your feet.</p>
+      <p>No pretending. No expectation that you already know what you're doing. Just calm, useful help in real time, as you do the job.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft-band" id="pricing">
+  <div class="wrap">
+    <h2>Simple pricing. <span class="gold">£99 a month.</span></h2>
+    <p class="lead">Coach in Your Pocket is £99 a month. For most new managers, one difficult situation handled well is worth more than that on its own.</p>
+    <div class="price-block">
+      <div class="price-card">
+        <p class="eyebrow" style="margin-bottom:8px;">What you get</p>
+        <div class="amount">£99 <span>/ month</span></div>
+        <p class="note">Cancel anytime. No minimum term. <!-- TO CONFIRM: VAT wording if needed. --></p>
+        <ul class="include-list">
+          <li><span class="tick" aria-hidden="true">&#10003;</span><span>Private 1:1 support through messages and voice notes</span></li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span><span>Practical guidance within 24 hours, Monday to Thursday</span></li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span><span>Optional 20-minute call every month</span></li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span><span>Space to send challenges, drafts or worries and get an honest answer</span></li>
+          <li><span class="tick" aria-hidden="true">&#10003;</span><span>No contract, no minimum term. Cancel anytime</span></li>
+        </ul>
+        <a class="btn" href="https://book.andylee.me/lite/free-20-minute-call">Book a free 20-minute call</a>
+      </div>
+      <div class="price-aside">
+        <h3>Trying to figure things out alone often costs more than this.</h3>
+        <p>It can cost confidence, time and credibility. Sometimes it costs opportunities you can't get back.</p>
+        <p>There's no long-term lock-in. If it isn't right, you cancel.</p>
+        <a class="btn" href="#guarantee">See the 14-day guarantee</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="guarantee">
+  <div class="wrap">
+    <h2>14-day <span class="gold">money-back</span> guarantee</h2>
+    <div class="guarantee-grid">
+      <div class="guarantee">
+        <p>When you join Coach in Your Pocket, you're protected by a 14-day money-back guarantee. If you don't feel you've received real value and decide you want to cancel within the first 14 days, just let me know and I'll give you a full refund. No hassle, no stress, no hoops to jump through.</p>
+        <p>I'm confident you'll find this genuinely helpful. If you're not satisfied for any reason in your first 14 days, you'll get your money back.</p>
+        <!-- TO CONFIRM: align guarantee wording with Refunds page once finalised. -->
+      </div>
+      <div class="badge-wrap">
+        <img src="/assets/coach/guarantee-badge.png" width="1024" height="1024" alt="14 day money-back guarantee badge" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="grey-band" id="fit">
+  <div class="wrap">
+    <h2>Not sure if this is <span class="gold">for you?</span></h2>
+    <p class="lead">This isn't for everyone, and it's better for both of us to be clear about that upfront.</p>
+    <div class="split">
+      <div class="fit-card yes">
+        <h3><img src="/assets/coach/tick.svg" width="22" height="22" alt="" aria-hidden="true"> Who this is for</h3>
+        <ul>
+          <li><img src="/assets/coach/tick.svg" width="22" height="22" alt="" aria-hidden="true"><span>New and recently promoted managers who want a trusted coach to talk through real workplace challenges. Conflict, feedback, delegation, team dynamics.</span></li>
+          <li><img src="/assets/coach/tick.svg" width="22" height="22" alt="" aria-hidden="true"><span>People who feel unsure in the role and want clarity. You're willing to ask questions, try new approaches and learn through real situations.</span></li>
+          <li><img src="/assets/coach/tick.svg" width="22" height="22" alt="" aria-hidden="true"><span>People who value honest, practical feedback. Straight answers and clear next steps, not fluffy theory.</span></li>
+        </ul>
+      </div>
+      <div class="fit-card no">
+        <h3><img src="/assets/coach/cross.svg" width="22" height="22" alt="" aria-hidden="true"> Who this is not for</h3>
+        <ul>
+          <li><img src="/assets/coach/cross.svg" width="22" height="22" alt="" aria-hidden="true"><span>Anyone expecting instant results without putting anything in. Growth takes consistency and a willingness to try things.</span></li>
+          <li><img src="/assets/coach/cross.svg" width="22" height="22" alt="" aria-hidden="true"><span>People who want passive content rather than real coaching. This is not a course to watch. You need to bring your real challenges.</span></li>
+          <li><img src="/assets/coach/cross.svg" width="22" height="22" alt="" aria-hidden="true"><span>Those looking for someone to do the work for them. I can guide you, support you and help you think clearly. You still need to take the action.</span></li>
+          <li><img src="/assets/coach/cross.svg" width="22" height="22" alt="" aria-hidden="true"><span>People who don't want honest feedback. If you're not open to looking at what's working and what isn't, you won't get much from this.</span></li>
+          <li><img src="/assets/coach/cross.svg" width="22" height="22" alt="" aria-hidden="true"><span>Anyone looking for guaranteed outcomes. Coaching helps you grow. Your results still depend on your follow-through.</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="body-copy" style="margin-top:28px;">
+      <p>If this isn't the right fit, neither of us wins. I'd rather you chose well than joined out of hope. If you want structured work on how you lead a growing team, ask about Operator in Your Corner on the call.</p>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="wrap">
+    <h2>What others are <span class="gold">saying</span></h2>
+    <p class="proof-note">These testimonials are from coaching engagements.</p>
+    <div class="quotes">
+      <figure class="quote">
+        <div class="top"><div class="avatar"><img src="/assets/coach/testimonial-avatar-1.jpg" width="120" height="120" alt="" loading="lazy"></div><div><div class="who">Dheeraj Kumar</div><div class="role">Mechanical Design Engineer</div></div></div>
+        <div class="mark">&ldquo;</div>
+        <blockquote>He coached me on how to improve people skills such as communication, presentation, people management. I would highly recommend him as a management guru.</blockquote>
+      </figure>
+      <figure class="quote">
+        <div class="top"><div class="avatar"><img src="/assets/coach/testimonial-avatar-2.jpg" width="120" height="120" alt="" loading="lazy"></div><div><div class="who">Dr. Robert Nettleton</div><div class="role">Nurse, health visitor and educator</div></div></div>
+        <div class="mark">&ldquo;</div>
+        <blockquote>To be coached by Andy is to be in safe hands, which makes courage seem more possible. I'm very pleased to commend him to individual clients and any organisation would be lucky to have him.</blockquote>
+      </figure>
+      <figure class="quote">
+        <div class="top"><div class="avatar"><img src="/assets/coach/testimonial-avatar-3.jpg" width="120" height="120" alt="" loading="lazy"></div><div><div class="who">Junelle Ayetty</div><div class="role">Trainee Solicitor</div></div></div>
+        <div class="mark">&ldquo;</div>
+        <blockquote>Working with Andy constantly felt like I had a cheerleader and someone to challenge me in the right ways.</blockquote>
+      </figure>
+      <figure class="quote">
+        <div class="top"><div class="avatar"><img src="/assets/coach/testimonial-avatar-4.jpg" width="120" height="120" alt="" loading="lazy"></div><div><div class="who">Julian Ng</div><div class="role">Lawyer</div></div></div>
+        <div class="mark">&ldquo;</div>
+        <blockquote>I would strongly recommend Andy's coaching services to anyone who wants to increase their impact + performance in a way that prioritises integrity and self-awareness.</blockquote>
+      </figure>
+      <figure class="quote">
+        <div class="top"><div class="avatar"><img src="/assets/coach/testimonial-avatar-5.jpg" width="120" height="120" alt="" loading="lazy"></div><div><div class="who">Tim Lynas</div><div class="role">Chartered Surveyor</div></div></div>
+        <div class="mark">&ldquo;</div>
+        <blockquote>I would recommend Andy without hesitation. He is an outstanding business coach, trustworthy, reliable and honest.</blockquote>
+      </figure>
+      <figure class="quote">
+        <div class="top"><div class="avatar"><img src="/assets/coach/testimonial-avatar-6.jpeg" width="126" height="126" alt="" loading="lazy"></div><div><div class="who">Cathy Bates</div><div class="role">Managing Director</div></div></div>
+        <div class="mark">&ldquo;</div>
+        <blockquote>He has a lot to offer and I would definitely recommend him to anyone who wants a coach.</blockquote>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="questions soft-band" id="faq">
+  <div class="wrap">
+    <h2>Got questions?</h2>
+    <p class="lead center" style="margin-top:-4px;">Let's see if we can answer them here.</p>
+    <div class="faq">
+      <details>
+        <summary>How exactly does this work?</summary>
+        <p>You message me about a real situation at work, in your own words. Text, voice note or a short video. I reply within 24 hours, Monday to Thursday, with how to think about it, what to focus on, and usually the actual wording you can use. You also get an optional 20-minute call each month if you want to talk something through live.</p>
+      </details>
+      <details>
+        <summary>Who is Coach in Your Pocket designed for?</summary>
+        <p>New and recently promoted managers. People who were promoted for being good at the job and are now responsible for other people, without much guidance on how to do that well. If you've been managing a little longer than a year and still feel unsure or alone in the role, you're welcome too. The "first year" is a guideline, not a hard line.</p>
+      </details>
+      <details>
+        <summary>What if I'm completely new to getting support like this?</summary>
+        <p>That's most people who join. There's nothing to prepare and no right way to start. Send the first thing that's on your mind and we go from there.</p>
+      </details>
+      <details>
+        <summary>Is this the same as traditional coaching or counselling?</summary>
+        <p>No. This is practical guidance on work situations: conversations, decisions and team dynamics. It isn't therapy or counselling. If what you're dealing with needs that kind of support, I'll say so.</p>
+      </details>
+      <details>
+        <summary>What if I already have a mentor or someone I speak to for advice?</summary>
+        <p>Good. Keep them. This works alongside a mentor rather than replacing one. The difference is speed and specificity. You get a considered reply on the actual situation within a day, rather than waiting for the next catch-up.</p>
+      </details>
+      <details>
+        <summary>Is this real 1:1 coaching?</summary>
+        <p>Yes. It's me, personally, reading your message and writing the reply. No team answering for me, no templates, no AI answering on my behalf.</p>
+      </details>
+      <details>
+        <summary>What happens if it's not what I expected? How does cancelling work?</summary>
+        <p>You cancel. There's no contract and no minimum term. Log into your account and cancel the subscription. Your access runs to the end of the current billing period. No forms, no phone call, no asking permission. Within the first 14 days you're also covered by the money-back guarantee.</p>
+      </details>
+      <details>
+        <summary>How much time do I need to commit?</summary>
+        <p>As much or as little as you need. Sending a message takes a couple of minutes. Reading a reply takes a few more. Some months you'll use it every week. Some months hardly at all. There's nothing to keep up with.</p>
+      </details>
+      <details>
+        <summary>What's expected of me as someone using this coaching?</summary>
+        <p>Bring real situations, be honest about what's going on, and act on what we work through. I can help you think clearly and give you the words. Using them is on you.</p>
+      </details>
+      <details>
+        <summary>Can I start today?</summary>
+        <p>Yes. Book a free 20-minute call and we'll get you set up. <!-- TO CONFIRM: exact onboarding path and when messaging access opens once Kajabi checkout is live. --></p>
+      </details>
+      <details>
+        <summary>Why start now rather than waiting?</summary>
+        <p>Because the situation you're dealing with right now is usually the one worth handling well. Waiting doesn't make the conversation easier. It just makes it later. That said, join when you're ready. There's no countdown and no fake urgency here.</p>
+      </details>
+      <details>
+        <summary>Still have questions?</summary>
+        <p>Email <a href="mailto:andy@theinstantleader.com">andy@theinstantleader.com</a> and ask, or book a free 20-minute call. I'd rather you asked than guessed. <!-- TO CONFIRM: preferred contact address if different. --></p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="close" id="close">
+  <div class="wrap">
+    <p class="lead-close">If you want someone in your corner for the real situations at work, let's talk.</p>
+    <p class="note">£99 a month. Cancel anytime. Protected by a 14-day money-back guarantee. Questions first? Happy to answer before you decide.</p>
+    <a class="btn btn-dark" href="https://book.andylee.me/lite/free-20-minute-call">Book a free 20-minute call</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="mailto:andy@theinstantleader.com">Contact</a>
+      <a href="/operator">Working with founders</a>
+      <a href="/new-managers">New Managers Circle</a>
+      <a href="/coach-in-your-pocket">Coach in Your Pocket</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <a href="/">Home</a>
+    </div>
+    <div>&copy; 2026 The Instant Leader, a trading name of Righteous Business Ltd.</div>
+  </div>
+</footer>
+
+</body>
+</html>
